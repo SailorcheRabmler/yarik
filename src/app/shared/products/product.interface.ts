@@ -7,5 +7,6 @@ export interface IProduct {
 	images: IProductImage[];
 	subCategory: string;
 	feedbacksCount: number;
-	rating: number;
+  rating: number;
+  ordered: number;
 }
